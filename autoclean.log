@@ -1,0 +1,39 @@
+02-07-2024 15:08:36.52 - INFO - Started validation of input parameters...
+02-07-2024 15:08:36.52 - INFO - Completed validation of input parameters
+02-07-2024 15:08:36.52 - INFO - Started handling of duplicates... Method: "AUTO"
+02-07-2024 15:08:36.53 - DEBUG - 0 missing values found
+02-07-2024 15:08:36.53 - INFO - Completed handling of duplicates in 0.005638 seconds
+02-07-2024 15:08:36.53 - INFO - Started handling of missing values...
+02-07-2024 15:08:36.53 - DEBUG - 0 missing values found
+02-07-2024 15:08:36.53 - INFO - Completed handling of missing values in 0.00253 seconds
+02-07-2024 15:08:36.53 - INFO - Started handling of outliers... Method: "WINZ"
+02-07-2024 15:08:36.71 - DEBUG - Outlier imputation of 1142 value(s) succeeded for feature "SeniorCitizen"
+02-07-2024 15:08:36.72 - INFO - Completed handling of outliers in 0.187592 seconds
+02-07-2024 15:08:36.72 - INFO - Started conversion of DATETIME features... Granularity: s
+02-07-2024 15:08:36.72 - INFO - Completed conversion of DATETIME features in 0.0046 seconds
+02-07-2024 15:08:36.72 - INFO - Started encoding categorical features... Method: "AUTO"
+02-07-2024 15:08:36.72 - DEBUG - Encoding to ONEHOT succeeded for feature "InternetService"
+02-07-2024 15:08:36.72 - DEBUG - Encoding to ONEHOT succeeded for feature "PaymentMethod"
+02-07-2024 15:08:36.73 - DEBUG - Encoding to ONEHOT succeeded for feature "gender"
+02-07-2024 15:08:36.73 - DEBUG - Encoding to ONEHOT succeeded for feature "StreamingMovies"
+02-07-2024 15:08:36.73 - DEBUG - Encoding to ONEHOT succeeded for feature "PhoneService"
+02-07-2024 15:08:36.73 - DEBUG - Encoding to ONEHOT succeeded for feature "Partner"
+02-07-2024 15:08:36.73 - DEBUG - Encoding to ONEHOT succeeded for feature "DeviceProtection"
+02-07-2024 15:08:36.73 - DEBUG - Encoding skipped for feature "customerID"
+02-07-2024 15:08:36.74 - DEBUG - Encoding to ONEHOT succeeded for feature "OnlineBackup"
+02-07-2024 15:08:36.74 - DEBUG - Encoding to ONEHOT succeeded for feature "Dependents"
+02-07-2024 15:08:36.74 - DEBUG - Encoding to ONEHOT succeeded for feature "StreamingTV"
+02-07-2024 15:08:36.74 - DEBUG - Encoding skipped for feature "TotalCharges"
+02-07-2024 15:08:36.74 - DEBUG - Encoding to ONEHOT succeeded for feature "MultipleLines"
+02-07-2024 15:08:36.75 - DEBUG - Encoding to ONEHOT succeeded for feature "OnlineSecurity"
+02-07-2024 15:08:36.75 - DEBUG - Encoding to ONEHOT succeeded for feature "TechSupport"
+02-07-2024 15:08:36.75 - DEBUG - Encoding to ONEHOT succeeded for feature "Contract"
+02-07-2024 15:08:36.75 - DEBUG - Encoding to ONEHOT succeeded for feature "PaperlessBilling"
+02-07-2024 15:08:36.75 - DEBUG - Encoding to ONEHOT succeeded for feature "Churn"
+02-07-2024 15:08:36.75 - INFO - Completed encoding of categorical features in 0.033094 seconds
+02-07-2024 15:08:36.75 - INFO - Started feature type conversion...
+02-07-2024 15:08:36.76 - DEBUG - Conversion to type INT succeeded for feature "SeniorCitizen"
+02-07-2024 15:08:36.76 - DEBUG - Conversion to type INT succeeded for feature "tenure"
+02-07-2024 15:08:36.76 - DEBUG - Conversion to type FLOAT succeeded for feature "MonthlyCharges"
+02-07-2024 15:08:36.76 - INFO - Completed feature type conversion for 3 feature(s) in 0.005345 seconds
+02-07-2024 15:08:36.76 - INFO - AutoClean process completed in 0.24593 seconds
